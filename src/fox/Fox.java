@@ -35,7 +35,7 @@ class Animal{
     public String food = "Food";
     
     public void talk(){
-        System.out.println("Hey...");
+        System.out.println("Hoi");
     }
 }
 
@@ -46,4 +46,10 @@ class Vixen extends Animal{
     public void talk(){
         System.out.println("Ring-ding-ding-ding-dingeringeding!");
     }
+}
+
+
+class Reynard extends Animal{
+public String name="Foxy the Pirate Fox" ;
+
 }
