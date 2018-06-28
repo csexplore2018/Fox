@@ -26,6 +26,10 @@ public class Fox {
         Vixen v = new Vixen();
         System.out.println(v.name);
         v.talk();
+        
+        Arctic b = new Arctic();
+        System.out.println(b.name);
+        b.talk();
     }
     
 }
@@ -51,5 +55,11 @@ class Vixen extends Animal{
 
 class Reynard extends Animal{
 public String name="Foxy the Pirate Fox" ;
+
+}
+
+
+class Arctic extends Animal{
+public String name="Snow fox" ;
 
 }
