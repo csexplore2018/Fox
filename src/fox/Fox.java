@@ -30,6 +30,10 @@ public class Fox {
         Arctic b = new Arctic();
         System.out.println(b.name);
         b.talk();
+        
+        Fennec f = new Fennec();
+        System.out.println(f.name);
+        f.talk();
     }
     
 }
@@ -62,4 +66,11 @@ public String name="Foxy the Pirate Fox" ;
 class Arctic extends Animal{
 public String name="Snow fox" ;
 
+}
+
+class Fennec extends Animal{
+public String name="Fennekin" ;
+    public void talk(){
+        System.out.println("Fennekin!");
+    }
 }
